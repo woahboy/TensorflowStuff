@@ -1,0 +1,4 @@
+Installing TensorFlow on Windows:
+  - You must have python version 3.5.2 installed. I found this easiest to do in Anaconda
+  - Use the command conda create -n tensorflow python=3.5.2
+  - Then we can use pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.1.0-cp35-cp35m-win_amd64.whl to install it
